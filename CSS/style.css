@@ -1,0 +1,72 @@
+body{height: 5000px;}
+/* Start main rules */
+.container {width: 1170px;
+margin: auto;}
+.cursor{cursor: pointer;}
+/* End main rules */
+/* Start header */
+.header .slider{
+    height: 600px;
+    background-image: url('../images/bridge.jpg');
+    background-size: cover;
+}
+.header .slider .intro{text-align: center;padding: 400px;}
+.header .slider .intro button{margin: 20px;font-size: large;background: none;}
+.header .slider h2{color: #FFFFFD;text-decoration: overline underline;margin: 0 auto;}
+.header .navbar {background-color: #252F31; overflow: hidden;}
+.header .navbar h2{text-transform: uppercase;float: left;color: #E3E8E9;}
+.header .navbar h2 .cal{color: #208255;}
+.header .navbar h2 .F{border: solid;background-color: #4A5456;border-width: thin;padding: 5px;border-color: #4A5456;}
+.header .navbar ul{list-style: none;overflow: hidden;float: right;}
+.header .navbar ul li{float: left;padding: 10px;color: #E3E8E9;}
+.header .navbar ul li a{color: #E3E8E9;text-decoration: none;}
+.header .navbar ul li a:hover{color: #2EAD68;text-decoration: none;}
+/* End header */
+/* Start content */
+.content{overflow: hidden;margin: 50px;}
+.content .container >div{width: 33.3333%;float: left;}
+.content h2{color: #4B5A5D;}
+.content p{line-height: 1.6;color: #888;}
+/* End content */
+/* Start about me */
+.about-me{background-color: #F2F2F2;overflow: hidden;}
+.about-me img{float: left;width: 50%;margin: 0px auto;}
+.about-me .about{float: right; width: 45%; margin-left: 5%;}
+.about-me .about h1{color: #4B5A5D}
+.about-me .about h2{color: #4B5A5D}
+.about-me .about p{color: #888;}
+.about-me .about .types{float: right;width: 40%;margin-right: 5%;}
+.about-me .about .icon{width: 50px;float: left;margin-left: -40px;margin-top: -80px;}
+/* End about me */
+/* Start skills */
+.my-skills{margin-bottom: 50px;margin-top: 50px;overflow: hidden; }
+.my-skills .skills{float: left;width: 50%;}
+.my-skills .skills h1{color: #4B5A5D;}
+.my-skills .skills p {color: #888;line-height: 1.6;margin-bottom: 30px;}
+.my-skills .skills button{color: #38D48D;border: 1px solid #38D48D;background: none;padding: 8px;width: 120px;}
+.my-skills .progress span{color: #4B5A5D;}
+.my-skills .progress{float: right;width: 40%;margin-left: 10%;margin-top: 50px;}
+.my-skills .progress .prog{margin: 10px 0;}
+/* End skills */
+/* Start Resume */
+.resume{background-color: #F2F2F2;text-align: center;overflow: hidden;padding: 50px;margin: 20px auto;}
+.resume h2{color: #4B5A5D;}
+.resume p{color: #888;}
+.resume button{color: #38D48D;border: 1px solid #38D48D;background: none;padding: 8px;width: 150px;}
+/* End Resume */
+/* Start Education */
+.my-education{overflow: hidden;background-color: #FFFFFF;margin: 50px;}
+.my-education .education{float: left;width: 50%;}
+.my-education .diploma-1 , 
+.my-education .diploma-2{float: right;width: 40%;margin-left: 10%;margin-top: 40px;}
+.my-education .diploma-2{margin: 10px 0px 0 120px;}
+.my-education h2{color: #4B5A5D;}
+.my-education p{color: #888;}
+.my-education span{color: #FFFFFF;background-color: #2DC76F;border: 1px solid;padding: 3px;margin-bottom: 50px;}
+
+/* End Education */
+
+
+
+
+
